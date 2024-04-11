@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:google_mlkit_face_detection/google_mlkit_face_detection.dart';
+import 'package:image_picker/image_picker.dart';
 
 
 
@@ -35,7 +37,7 @@ class _FaceDetectorAppState extends State<FaceDetectorApp> {
     );
   }
 
-  Future _fncGetImage() async {
+  Future _fncGetImage(ImageSource source) async {
 
   }
 
@@ -43,8 +45,8 @@ class _FaceDetectorAppState extends State<FaceDetectorApp> {
 
   }
 
-  Future<void> _fncProcessImage() async {
-    
+  Future<void> _fncProcessImage(InputImage inputImage) async {
+
   }
 
 }
